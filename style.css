@@ -1,0 +1,16 @@
+.navbar {
+
+overflow: hidden;
+background-color: rgb(48, 48, 48);
+margin: none;
+width: 150px;
+}
+
+.navbar a {
+
+    display: block;
+    float: top;
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+    padding: 25px ;
+}
