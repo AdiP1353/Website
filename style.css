@@ -4,17 +4,52 @@
     padding: 0;
 }
 
+body{
 
+    background-image: url(images/background-50-50.jpg);
+    background-size: cover;
+    
+}
 
 
 .nav-links {
     display: flex;
     flex-direction: column;
     list-style: none;
+
 }
 
 .nav-links li {
+
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 1.5rem;
     display: flex;
-    border: 1px solid green;
-    justify-content: space-around;
+    justify-content: right;
+    padding-bottom: 1vh;
+
+}
+
+.links {
+    align-items: stretch;
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 3px;
+    width: 20vh;
+    height: 20vh;
+    padding-top: 7vh;
+}
+
+.quote h1 {
+
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    
+    color: #acbcc4 ;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    letter-spacing: 5px;
+    font-size: 3rem ;
+
 }
