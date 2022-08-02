@@ -4,26 +4,30 @@
 .navbar a {
 
     display: flex;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: open-sans, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin: 10vmin auto;
+    margin: 5vmin auto;
+    font-size: 1.0em;
     
 }
 
 .navbar a:hover {
-    text-decoration: underline line-through;
+    
+    text-decoration: line-through;
 }
 
-.bigtex {
+.quote span {
+
+    display: inline-flex;
     font-family: open-sans, sans-serif;
     font-weight: 400;
     font-style: normal;
-    display: flex;
+    text-align: center;
+    font-size: 2em;
+    margin: 20vmin 30%;
     justify-content: center;
-    border: 1px solid green;
-
-    
+    align-items: center;
+    line-height: 1.5em;
 }
-
