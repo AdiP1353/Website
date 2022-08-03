@@ -3,12 +3,13 @@
 }
 .navbar a {
 
-    display: flex;
+    display: block;
+    padding: 20px;  
     text-decoration: none;
     font-family: open-sans, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin: 5vmin auto;
+    margin: 4vmin auto;
     font-size: 1.0em;
     
 }
@@ -23,11 +24,29 @@
     display: inline-flex;
     font-family: open-sans, sans-serif;
     font-weight: 400;
-    font-style: normal;
     text-align: center;
     font-size: 2em;
     margin: 20vmin 30%;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    text-decoration: underline rgba(13, 168, 246, 0.278);
+}
+
+.quote {
+
+    display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 1.5em;
+    transform: translateY(-50px);
+}
+
+
+body      {
+
+    background-image: url("/webDev/assets/broken-sword.svg") ;
+    background-position: 48% 65%;
+    background-repeat: no-repeat;
+    background-size: 30% ;
+
+
 }
