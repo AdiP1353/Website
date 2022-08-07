@@ -1,5 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.landing {
+
+    position: relative;
+}
+
+
 .navbar {
     background-color: none;
+    border: 1px solid green;
 }
 .navbar a {
 
@@ -11,7 +25,7 @@
     font-style: normal;
     margin: 4vmin auto;
     font-size: 1.0em;
-    
+    border: 1px solid green;
 }
 
 .navbar a:hover {
@@ -20,8 +34,7 @@
 }
 
 .quote span {
-
-    display: inline-flex;
+    border: 1px solid green;
     font-family: open-sans, sans-serif;
     font-weight: 400;
     text-align: center;
@@ -30,23 +43,40 @@
     line-height: 1.5em;
     letter-spacing: 1px;
     text-decoration: underline rgba(13, 168, 246, 0.278);
+    width: 40%;
 }
 
 .quote {
-
+    border: 1px solid green;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY(-50px);
+    position: relative;
 }
 
+.button-left {
 
-body      {
+    border: 1px solid green;
+    height: 70px;
+    width: 70px;
+    font-weight: 400px  ;
+    position: absolute;
+    left: 4%;
+    top: 40%;
 
-    background-image: url("/webDev/assets/broken-sword.svg") ;
-    background-position: 48% 65%;
-    background-repeat: no-repeat;
-    background-size: 30% ;
+}
 
+.button-right{
 
+    border: 1px solid green;
+    height: 70px;
+    width: 70px;
+    font-weight: 400px  ;
+    position: absolute;
+    right: 4%;
+    top: 40%;
+}
+
+.circular-button {
+    border-radius: 50%;
 }
