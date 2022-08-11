@@ -1,3 +1,6 @@
+/*Global styles*/
+
+/*          Home page               */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,19 +8,19 @@
 }
 
 
-.landing {
-
+.landing-home {
     position: relative;
 }
 
 
-.navbar {
+.navbar-home {
     background-color: none;
     border: 1px solid green;
+    display: flex;
 }
-.navbar a {
+.navbar-home a {
 
-    display: block;
+    display: flex;
     padding: 20px;  
     text-decoration: none;
     font-family: open-sans, sans-serif;
@@ -28,12 +31,12 @@
     border: 1px solid green;
 }
 
-.navbar a:hover {
+.navbar-home a:hover {
     
     text-decoration: line-through;
 }
 
-.quote span {
+.quote-home span {
     border: 1px solid green;
     font-family: open-sans, sans-serif;
     font-weight: 400;
@@ -46,7 +49,7 @@
     width: 40%;
 }
 
-.quote {
+.quote-home {
     border: 1px solid green;
     display: flex;
     justify-content: center;
@@ -54,7 +57,7 @@
     position: relative;
 }
 
-.button-left {
+.button-left-home {
 
     border: 1px solid green;
     height: 70px;
@@ -66,7 +69,7 @@
 
 }
 
-.button-right{
+.button-right-home{
 
     border: 1px solid green;
     height: 70px;
@@ -77,6 +80,60 @@
     top: 40%;
 }
 
-.circular-button {
+.circular-button-home {
     border-radius: 50%;
 }
+
+/* About me page */
+
+.navbar-aboutme {
+    background-color: none;
+    border: 1px solid green;
+    display: flex;
+}
+.navbar-aboutme a {
+
+    display: flex;
+    padding: 20px;  
+    text-decoration: none;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 4vmin auto;
+    font-size: 1.0em;
+    border: 1px solid green;
+}
+
+.navbar-aboutme a:hover {
+    
+    text-decoration: line-through;
+}
+.portfolio1-photo-aboutme {
+
+    position: relative;
+    width: 400px;
+    height: 300px;
+
+}
+.portfolio1-photo-aboutme img {
+
+    border: 1px solid green;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 4 / 3;
+    
+}
+
+.portfolio1-aboutme {
+
+    border: 1px solid red;
+    display: flex;
+    width: 50%;
+    height: 60%;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+/* Photography page */
